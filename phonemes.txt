@@ -1,0 +1,73 @@
+nếu|n eu_T3
+học|h o1_T6 k
+sinh|x i_T1 nh
+đi|d2 i_T1
+học|h o1_T6 k
+muộn|m ua_T6 n
+vì|j i_T2
+các|k a1_T3 k
+lý|l i_T3
+do|j o1_T1
+thời|th oi3_T2
+tiết|t ie2_T3 t
+,|pau
+trường|ch ua2_T2 ng
+cần|k a3_T2 n
+giải|j ai_T4
+quyết|k uy_T1 e2_T3 t
+hợp|h o3_T6 p
+lý|l i_T3
+để|d2 e2_T4
+các|k a1_T3 k
+em|e2_T1 m
+không|kh o2_T1 ng
+phải|ph ai_T4
+nghỉ|ng i_T4
+học|h o1_T6 k
+.|t e2_T1
+vào|j ao_T2
+ngày|ng ay_T2
+rét|r e1_T3 t
+đậm|d2 a3_T6 m
+,|pau
+rét|r e1_T3 t
+hại|h ai_T6
+,|pau
+các|k a1_T3 k
+trường|ch ua2_T2 ng
+không|kh o2_T1 ng
+tổ|t o2_T4
+chức|ch u2_T3 k
+hoạt|h oa_T6 t
+động|d2 o2_T6 ng
+tập|t a3_T6 p
+trung|ch u1_T1 ng
+ngoài|ng oa_T2 i_T1
+trời|ch oi3_T2
+,|pau
+không|kh o2_T1 ng
+bắt|b a2_T3 t
+buộc|b ua_T6 k
+mặc|m a2_T6 k
+đồng|d2 o2_T2 ng
+phục|ph u1_T6 k
+và|j a1_T2
+có|k o1_T3
+thể|th e2_T4
+điều|d2 ieu_T2
+chỉnh|ch i_T4 nh
+thời|th oi3_T2
+gian|j a1_T1 n
+học|h o1_T6 k
+hợp|h o3_T6 p
+lý|l i_T3
+để|d2 e2_T4
+học|h o1_T6 k
+sinh|x i_T1 nh
+không|kh o2_T1 ng
+cần|k a3_T2 n
+đi|d2 i_T1
+học|h o1_T6 k
+quá|k u1_T1 a1_T3
+sớm|x o3_T3 m
+.|t e2_T1
