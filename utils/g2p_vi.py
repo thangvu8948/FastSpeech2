@@ -4,10 +4,10 @@ import regex as re
 from dataset.texts.cleaners import punctuations
 from helper import thirdparty_binary
 
-fst_path = "D:\\FastSpeech2\\g2p\\model.fst"
-word_list_path = "D:\\FastSpeech2\\g2p\\word_list.txt"
+fst_path = "..\\g2p\\VN\\model.fst"
+word_list_path = "..\\g2p\\Linux\\word_list.txt"
 out_file = "phonemes.txt"
-phonetisaurus = "D:\\FastSpeech2\\g2p\\phonetisaurus-g2pfst.exe"
+phonetisaurus = "..\\g2p\\Linux\\phonetisaurus-g2pfst.exe"
 def parse_output(output):
     for line in output.splitlines():
         line = line.strip().split("\t")
