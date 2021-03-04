@@ -19,6 +19,7 @@ from unidecode import unidecode
 from unicodedata import normalize
 from .numbers import normalize_numbers
 from num2words import num2words
+from dataset.texts.vicleaners import cleaners
 
 _whitespace_re = re.compile(r"\s+")
 #punctuations = """+-!()[]{};:'"\<>/?@#^&*~,"""
@@ -75,11 +76,17 @@ def replace_number(text):
 def normalize_text(text):
    text = normalize("NFC", text)
    text = text.lower()
-   text = expand_abbreviations(text)
-   text = replace_time(text)
-   text = replace_number(text)
-   text = collapse_whitespace(text)
+   #text = expand_abbreviations(text)
+   #text = replace_time(text)
+   #text = replace_number(text)
+   #text = collapse_whitespace(text)
+   text = cleaners(text)
    return text
+
+def basic_cleaners(text):
+    """Basic pipeline that lowercases and collapses whitespace without transliteration."""
+    text = normalize_text(text)
+    return text
 
 
 def expand_abbreviations(text):
@@ -104,10 +111,6 @@ def convert_to_ascii(text):
     return unidecode(text)
 
 
-def basic_cleaners(text):
-    """Basic pipeline that lowercases and collapses whitespace without transliteration."""
-    text = normalize_text(text)
-    return text
 
 
 def transliteration_cleaners(text):
