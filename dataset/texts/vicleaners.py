@@ -5,7 +5,7 @@
 # Date : 09/2018
 
 from pyvi import ViTokenizer
-from rules import _spec_char, _currency, _d_unit, _w_unit, _number, short_dict
+from dataset.texts.rules import _spec_char, _currency, _d_unit, _w_unit, _number, short_dict
 import re
 
 flatten = lambda *n: (e for a in n

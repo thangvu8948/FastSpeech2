@@ -80,7 +80,7 @@ def normalize_text(text):
    #text = replace_time(text)
    #text = replace_number(text)
    #text = collapse_whitespace(text)
-   text = cleaners(text)
+   text = cleaners(text).do()
    return text
 
 def basic_cleaners(text):
